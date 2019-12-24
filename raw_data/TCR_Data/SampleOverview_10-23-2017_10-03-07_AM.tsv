@@ -1,0 +1,5 @@
+sample_name	total_templates	productive_templates	fraction_productive	total_rearrangements	productive_rearrangements	productive_clonality	max_productive_frequency	locus	sample_tags
+ESO_1_sorted_inf	104118	98641	0.9474	14675	12018	0.7792	82.338989	TCRB	
+INY_1_sorted_inf	107607	100573	0.9346	21184	16939	0.7406	78.947628	TCRB	
+TR_PBMC	121815	96733	0.7941	93510	73784	0.0499	1.414202	TCRB	
+INY2_sorted_inf	353332	332079	0.9398	41915	34433	0.8067	83.820117	TCRB	
