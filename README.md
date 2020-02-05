@@ -1,2 +1,2 @@
 # TCR.Seq.Compare
-Comparison of Captured immune repertoire by TCR seq versus imrep, MIXCR, and TRUST4
+Comparison of captured immune repertoire between IMREP, MIXCR, and TRUST4 using TCR seq data as gold standard.  
