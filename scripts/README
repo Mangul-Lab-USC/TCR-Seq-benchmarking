@@ -1,1 +1,20 @@
-python ../tcr.seq.extract.py tcrb.seq.tsv test
+SCRIPT USAGE:
+
+Parser for extracting cdr3 seq, count and frequency from TCR seq files and converting to csv with sample name.
+
+	python /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/scripts/tcr.seq.extract.py MP_11-28_PBMC.tsv MP_11-28_PBMC_TCR_EXTRACTED
+
+
+Parser for extracting cdr3 seq, count and frequency from MIXCR output and converting to csv with sample name.
+	
+	python mixcr.extract.py input output
+
+
+Parser for extracting cdr3 seq, count and frequency from TRUST output and converting to csv with sample name.
+
+	python TRUST4.extract.py input output
+
+
+Parser for extracting cdr3 seq, count and frequency from IMREP output and converting to csv with sample name.
+
+	python imrep.extract.py input output
