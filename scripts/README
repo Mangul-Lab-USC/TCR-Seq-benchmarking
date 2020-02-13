@@ -1,20 +1,25 @@
 SCRIPT USAGE:
 
+TCR:
 Parser for extracting cdr3 seq, count and frequency from TCR seq files and converting to csv with sample name.
 
-	python /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/scripts/tcr.seq.extract.py MP_11-28_PBMC.tsv MP_11-28_PBMC_TCR_EXTRACTED
+	python /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/scripts/tcr.seq.extract.py /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/raw_data/complete_sample/TCR_seq/MP_11-28_PBMC.tsv /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/raw_data/complete_sample/TCR_seq/extracted_features/MP_11-28_PBMC_TCR_EXTRACTED
 
 
+MIXCR:
 Parser for extracting cdr3 seq, count and frequency from MIXCR output and converting to csv with sample name.
 	
-	python mixcr.extract.py input output
+	python /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/scripts/mixcr.extract.py /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/raw_data/complete_sample/MIXCR_Data/${file_name} /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/raw_data/complete_sample/MIXCR_Data/extracted_features/${file_name}.parsed
 
 
+TRUST:
 Parser for extracting cdr3 seq, count and frequency from TRUST output and converting to csv with sample name.
 
-	python TRUST4.extract.py input output
+	python /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/scripts/TRUST4.extract.py /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/raw_data/complete_sample/TRUST4_Data/${filename} /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/raw_data/complete_sample/TRUST4_Data/extracted_features/${file_name}.parsed
 
 
+IMREP:
 Parser for extracting cdr3 seq, count and frequency from IMREP output and converting to csv with sample name.
 
-	python imrep.extract.py input output
+	python /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/scripts/imrep.extract.py /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/raw_data/complete_sample/IMREP_Data/${file_name} /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/raw_data/complete_sample/IMREP_Data/extracted_features/${file_name}.parsed
+

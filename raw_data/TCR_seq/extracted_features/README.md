@@ -1,1 +1,0 @@
-After we run the tool on the fastq data, we run a parser tailored to the specific tool to extract each samples cdr3 sequences, their counts, and frequencies. We only include CDR3 sequences that begin with C and end with F. These are the results for tcr.seq.extract.py

@@ -1,7 +1,7 @@
 import csv
 import argparse
 from math import log as ln
-
+import sys
 
 
 def p(n, N):
@@ -18,10 +18,9 @@ def sdi(data):
 
 #============================
 ap = argparse.ArgumentParser()
-ap.add_argument('input', help='<fastq.gz> file')
-ap.add_argument('out_prefix', help='Directory to be created to save <fastq> files. Each <fastq> file is obtained based on the barcode')
+ap.add_argument('input', help='<TCR_seq_file.tsv> file')
+ap.add_argument('out_prefix', help='name of outfile and save location')
 args = ap.parse_args()
-
 #ESO_1_sorted_inf        82.338987       81220   CASSYVGNTGELFF  CTGCTGTCGGCTGCTCCCTCCCAGACATCTGTGTACTTCTGTGCCAGCAGTTACGTCGGGAACACCGGGGAGCTGTTTTTTGGAGAA TCRBV06-05*01   TCRBD02-01      TCRBJ02-02*01
 
 set_cdr3=set()
@@ -36,6 +35,7 @@ for line in reader:
     if cdr3[0] == "C" and cdr3[len(cdr3) - 1] == "F":
         set_cdr3.add(cdr3)
 file.close()
+
 
 
 for c in set_cdr3:
@@ -56,21 +56,25 @@ for line in reader:
 
 file.close()
 
-fileOut=open(args.out_prefix+".cdr3.csv","w")
-fileOut.write("CDR3,nReads")
+fileOut=open(args.out_prefix,"w")
+fileOut.write("Sample,CDR3,nReads")
 fileOut.write("\n")
 
+sample_name = args.input.split("/")[-1].split(".")[0]
+
+print(sample_name)
+
 for key, value in dict.items():
-    fileOut.write(key+","+str(value))
+    fileOut.write(sample_name+","+key+","+str(value))
     fileOut.write("\n")
 
 
 fileOut.close()
 
 # alpha diversity
-fileOut=open(args.out_prefix+".alpha.diversity.csv","w")
-fileOut.write(args.out_prefix+","+str(sdi(dict)))
-fileOut.write("\n")
+# fileOut=open(args.out_prefix+".alpha.diversity.csv","w")
+# fileOut.write(args.out_prefix+","+str(sdi(dict)))
+# fileOut.write("\n")
 
 
 
