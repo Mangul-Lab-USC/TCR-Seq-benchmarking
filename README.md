@@ -7,6 +7,7 @@ Step 1:
 Generate extracted features for full samples and subsamples for each tool:
 
 git clone https://github.com/Mangul-Lab-USC/TCR.Seq.Compare.git
+
 cd TCR.Seq.Compare
 scripts/./master.extract_cdr3_TCR.sh
 scripts/./master.extract_cdr3_MIXCR.sh
