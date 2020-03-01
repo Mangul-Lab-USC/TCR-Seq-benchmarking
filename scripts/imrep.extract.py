@@ -16,22 +16,23 @@ cdr3_hash={}
 
 #get all CDR3s
 file=open(args.input)
-reader=csv.reader(file, delimiter='\t')
+reader=csv.reader(file)
 next(reader,None)
 for line in reader:
-    cdr3=line[32]
+    cdr3=line[0]
     # print("#####################")
     # print(cdr3)
     # print("#####################")
     if cdr3[0] == "C" and cdr3[len(cdr3) - 1] == "F":
         set_cdr3.add(cdr3)
+        # print(cdr3)
 file.close()
 
 print ("Nummber CDR3s",len(set_cdr3))
 
-# # # create dictionary from every unique element 
+# # create dictionary from every unique element 
 for cdr3 in set_cdr3:
-    cdr3_hash[cdr3]=0
+	cdr3_hash[cdr3]=0
 # print(cdr3_hash)
 
 
@@ -43,7 +44,7 @@ for line in reader:
     cdr3=line[0]
     count = int(line[2])
     if cdr3[0]=="C" and cdr3[len(cdr3)-1]=="F":
-        cdr3_hash[cdr3] += count
+    	cdr3_hash[cdr3] += count
 file.close()
 
 print(cdr3_hash)
@@ -51,7 +52,7 @@ print(cdr3_hash)
 
 total_reads=float(sum(cdr3_hash.values()))
 print(total_reads)
-print(max(cdr3_hash.values()))
+# print(max(cdr3_hash.values()))
 
 # ############# writing the hash to a csv file
 

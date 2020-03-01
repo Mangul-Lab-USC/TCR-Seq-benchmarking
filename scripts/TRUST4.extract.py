@@ -33,7 +33,6 @@ for cdr3 in set_cdr3:
 # print(cdr3_hash)
 
 
-
 ##get number of reads for each unique cdr3 seq in set.
 file=open(args.input)
 reader=csv.reader(file, delimiter='\t')

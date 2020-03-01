@@ -1,0 +1,15 @@
+hisat2.tuned_CMT-baseline1C_CAGATC_combinedLanes_R1_001
+hisat2.tuned_ESO1-sorted-T-cells_S13_L007_R1_001
+hisat2.tuned_HM-baseline1C_CGATGT_combinedLanes_R1_001
+hisat2.tuned_INY1-sorted-T-cells_S14_L007_R1_001
+hisat2.tuned_INY2-sorted-T-cells_S15_L007_R1_001
+hisat2.tuned_JSSBaseline-RNA_GTGAAA_combinedLanes_R1_001
+hisat2.tuned_LEK-OT110712A_CCGTCC_combinedLanes_R1_001
+hisat2.tuned_LEK-baseline_CGATGT_combinedLanes_R1_001
+hisat2.tuned_MP-11-28-12RNA_S2_R1_001
+hisat2.tuned_PT0112-B_S3_combinedLanes_R1_001
+hisat2.tuned_PT0285-B_S5_combinedLanes_R1_001
+hisat2.tuned_PT0310_S9_combinedLanes_R1_001
+hisat2.tuned_RAS-baseline_TGACCA_combinedLanes_R1_001
+hisat2.tuned_SAR-11-14-12RNA_S1_combinedLanes_R1_001
+hisat2.tuned_TR2-PBMC_S12_combinedLanes_R1_001
