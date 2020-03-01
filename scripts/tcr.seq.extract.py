@@ -37,7 +37,6 @@ for line in reader:
 file.close()
 
 
-
 for c in set_cdr3:
     dict[c]=0
 

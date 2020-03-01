@@ -18,5 +18,3 @@ echo $DIR
 
 python ${DIR}/compare.py $1 $2 $3
 Rscript ${DIR}/compare.R $3
-
-
