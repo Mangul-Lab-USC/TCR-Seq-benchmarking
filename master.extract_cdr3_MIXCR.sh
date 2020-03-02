@@ -11,7 +11,8 @@ done<MIXCR_samples.txt
 # python /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/scripts/mixcr.extract.py /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/raw_data/complete_sample/MIXCR_Data/${file_name} /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/raw_data/complete_sample/MIXCR_Data/extracted_features/${file_name}.parsed
 
 
-
+echo "Sample,CDR3,nReads" > summary_data/complete_sample/MIXCR_merged_extracted_features.csv
+tail -n +2 -q raw_data/complete_sample/MIXCR_Data/extracted_features/*.csv >> summary_data/complete_sample/MIXCR_merged_extracted_features.csv
 
 
 

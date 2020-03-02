@@ -11,7 +11,7 @@ done<TRUST_samples.txt
 
 
 echo "Sample,CDR3,nReads" > summary_data/complete_sample/TRUST4_merged_extracted_features.csv
-tail -n +2 -q *.csv >> summary_data/complete_sample/TRUST4_merged_extracted_features.csv
+tail -n +2 -q raw_data/complete_sample/TRUST4_Data/extracted_features/*.csv >> summary_data/complete_sample/TRUST4_merged_extracted_features.csv
 
 
 

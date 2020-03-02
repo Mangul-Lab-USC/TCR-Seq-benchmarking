@@ -11,3 +11,8 @@ done<IMREP_samples.txt
 
 echo "Sample,CDR3,nReads" > summary_data/complete_sample/IMREP_merged_extracted_features.csv
 tail -n +2 -q raw_data/complete_sample/IMREP_Data/extracted_features/*.csv >> summary_data/complete_sample/IMREP_merged_extracted_features.csv
+
+
+
+
+# python scripts/imrep.extract.py raw_data/complete_sample/IMREP_Data/hisat2.tuned_LEK-baseline_CGATGT_combinedLanes_R1_001.fastq.sort.cdr3 raw_data/complete_sample/IMREP_Data/extracted_features/hisat2.tuned_LEK-baseline_CGATGT_combinedLanes_R1_001.extracted_IMREP.csv
