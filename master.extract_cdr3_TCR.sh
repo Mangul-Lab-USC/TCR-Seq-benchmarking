@@ -10,3 +10,5 @@ done<TCR_samples.txt
 
 # python /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/scripts/tcr.seq.extract.py /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/raw_data/complete_sample/TCR_seq/${filename} /Users/aaronkarlsberg/Desktop/TCR.Seq.Compare/raw_data/complete_sample/TCR_seq/extracted_features/${file_name}.parsed
 
+echo "Sample,CDR3,nReads" > summary_data/complete_sample/TCR_merged_extracted_features.csv
+tail -n +2 -q raw_data/complete_sample/TCR_seq/extracted_features/*.csv >> summary_data/complete_sample/TCR_merged_extracted_features.csv
