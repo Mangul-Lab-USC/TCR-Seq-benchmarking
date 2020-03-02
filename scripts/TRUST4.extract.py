@@ -56,7 +56,8 @@ fileOut=open(args.out_prefix+".cdr3.csv","w")
 fileOut.write("Sample,CDR3,nReads")
 fileOut.write("\n")
 
-sample_name = args.input.split("/")[-1].split(".")[0]
+sample_name = args.input.split("/")[-1].split(".")[1]
+print(sample_name)
 
 for key, value in cdr3_hash.items():
     fileOut.write(sample_name+","+key+","+str(value))
