@@ -2,6 +2,7 @@ CMT-baseline1C_CAGATC_combinedLanes
 ESO1-sorted-T-cells_S13_L007
 HM-baseline1C_CGATGT_combinedLanes
 INY1-sorted-T-cells_S14_L007
+INY2-sorted-T-cells_S15_L007
 JSSBaseline-RNA_GTGAAA_combinedLanes
 LEK-OT110712A_CCGTCC_combinedLanes
 LEK-baseline_CGATGT_combinedLanes

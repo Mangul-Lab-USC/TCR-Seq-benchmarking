@@ -32,6 +32,7 @@ tuned_PT0310_S9_combinedLanes_R1_001
 tuned_RAS-baseline_TGACCA_combinedLanes_R1_001
 tuned_SAR-11-14-12RNA_S1_combinedLanes_R1_001
 tuned_TR2-PBMC_S12_combinedLanes_R1_001
+tuned_LEK-baseline_CGATGT_combinedLanes_R1_001
 
 MIXCR:
 
@@ -49,6 +50,7 @@ PT0310_S9_combinedLanes_clones
 RAS-baseline_TGACCA_combinedLanes_clones
 SAR-11-14-12RNA_S1_combinedLanes_clones
 TR2-PBMC_S12_combinedLanes_clones
+INY2-sorted-T-cells_S15_L007_clones
 
 
 TRUST4:
@@ -103,20 +105,3 @@ PT0310_S9
 RAS-baseline_TGACCA
 SAR-11-14-12RNA_S1
 TR2-PBMC_S12
-
-
-
-
-
-Missing:
-
-Mixcr:
-INY2-sorted-T-cells_S15_L007
-
-TRUST4:
-None 
-
-IMREP:
-none
-
-
