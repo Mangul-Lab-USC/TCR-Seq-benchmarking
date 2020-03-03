@@ -8,7 +8,6 @@ Pt_112_baseline_TCR_seq
 Pt_285_baseline_TCR_seq
 Pt_308_baseline_TCR_seq
 Pt_325_baseline_TCR_seq
-RearrangementDetails_05-29-2017_9-36-39_AM
 RearrangementDetails_ESO1_sorted_infusion
 RearrangementDetails_INY1_sorted_infusion
 RearrangementDetails_INY2_sorted_infusion
