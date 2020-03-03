@@ -4,17 +4,6 @@ from math import log as ln
 import sys
 
 
-def p(n, N):
-    """ Relative abundance """
-    if n is  0:
-        return 0
-    else:
-        return (float(n)/N) * ln(float(n)/N)
-
-def sdi(data):
-    N = sum(data.values())
-
-    return -sum(p(n, N) for n in data.values() if n is not 0)
 
 #============================
 ap = argparse.ArgumentParser()
